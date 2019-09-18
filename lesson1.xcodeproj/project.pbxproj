@@ -12,8 +12,6 @@
 		5F3EB84A2331E05C004E0523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3EB8482331E05C004E0523 /* Main.storyboard */; };
 		5F3EB84C2331E05D004E0523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3EB84B2331E05D004E0523 /* Assets.xcassets */; };
 		5F3EB84F2331E05D004E0523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3EB84D2331E05D004E0523 /* LaunchScreen.storyboard */; };
-		5F3EB85A2331E05D004E0523 /* lesson1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EB8592331E05D004E0523 /* lesson1Tests.swift */; };
-		5F3EB8652331E05D004E0523 /* lesson1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EB8642331E05D004E0523 /* lesson1UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		5F3EB84E2331E05D004E0523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F3EB8502331E05D004E0523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F3EB8552331E05D004E0523 /* lesson1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesson1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F3EB8592331E05D004E0523 /* lesson1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson1Tests.swift; sourceTree = "<group>"; };
-		5F3EB85B2331E05D004E0523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F3EB8602331E05D004E0523 /* lesson1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesson1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F3EB8642331E05D004E0523 /* lesson1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson1UITests.swift; sourceTree = "<group>"; };
-		5F3EB8662331E05D004E0523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				5F3EB8432331E05C004E0523 /* lesson1 */,
-				5F3EB8582331E05D004E0523 /* lesson1Tests */,
-				5F3EB8632331E05D004E0523 /* lesson1UITests */,
 				5F3EB8422331E05C004E0523 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				5F3EB8502331E05D004E0523 /* Info.plist */,
 			);
 			path = lesson1;
-			sourceTree = "<group>";
-		};
-		5F3EB8582331E05D004E0523 /* lesson1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5F3EB8592331E05D004E0523 /* lesson1Tests.swift */,
-				5F3EB85B2331E05D004E0523 /* Info.plist */,
-			);
-			path = lesson1Tests;
-			sourceTree = "<group>";
-		};
-		5F3EB8632331E05D004E0523 /* lesson1UITests */ = {
-			isa = PBXGroup;
-			children = (
-				5F3EB8642331E05D004E0523 /* lesson1UITests.swift */,
-				5F3EB8662331E05D004E0523 /* Info.plist */,
-			);
-			path = lesson1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3EB85A2331E05D004E0523 /* lesson1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3EB8652331E05D004E0523 /* lesson1UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
